@@ -818,7 +818,7 @@ background-color: #7e5151;
   width: 378px;
   height: 412px;
   background-color: #FFF9F0;
-  background-color: #ff9900;
+  /* background-color: #ff9900; */
   display: flex;
   border-radius: 8px;
   flex-direction: column;
