@@ -19,6 +19,12 @@ import sixdSvg from "./assets/sixd.svg"
 import img1 from "./assets/Rectangle.png"
 import img22 from "./assets/Rectangl.png"
 import img3 from "./assets/Rectan.png"
+import a from "./assets/a.png"
+import b from "./assets/b.png"
+import c from "./assets/c.png"
+import d from "./assets/d.png"
+import e from "./assets/e.png"
+import f from "./assets/f.png"
 
 function App() {
 
@@ -194,6 +200,44 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="what">
+            <h1 className='chose'>Best Traveler’s</h1>
+            <br />
+            <h1 className="tetx">SHARED PHOTOS </h1>
+            <p className="pi">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+            <div className="all">
+
+            <div className="how">
+              <img src={a} alt="" />
+            </div>
+            <div className="how">
+                   <img src={b} alt="" />
+
+            </div>
+            <div className="how">
+                   <img src={c} alt="" />
+
+            </div>
+            <div className="how">
+                   <img src={d} alt="" />
+
+            </div>
+            <div className="how">
+                   <img src={e} alt="" />
+
+            </div>
+            <div className="how">
+                   <img src={f} alt="" />
+
+            </div>
+            </div>
+
+            
+          </div>
+
+
         </section>
 
 
