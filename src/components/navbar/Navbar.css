@@ -48,6 +48,16 @@ nav h1:first-child {
     font-weight: 10;
     font-size: 18px;
 }
+.pis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;width: 100%;
+    padding: 20px ;
+    font-size: 13px;
+    height: 100%;
+    color: #fff;
+}
 
 .one {
     width: 100%;

@@ -244,13 +244,14 @@ button {
 }
 
 @media (max-width: 600px) {
-  .how{
+  .how {
     width: 250px !important;
-height: 350px !important;
-background-color: #00fffb;
-border-radius: 5px;
+    height: 350px !important;
+    background-color: #00fffb;
+    border-radius: 5px;
 
-}
+  }
+
   .main h1 {
     font-size: 25px;
   }
@@ -404,7 +405,7 @@ background-color: #7e5151;
 
 .section_2 {
   width: 100%;
-  height: 120vh;
+  height: auto;
   /* Eng katta qiymatni qoldirdim */
 }
 
@@ -783,6 +784,11 @@ background-color: #7e5151;
 }
 
 @media (max-width: 570px) {
+  .phptos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .card_children {
     width: 200px;
     height: 300px;
@@ -812,16 +818,21 @@ background-color: #7e5151;
     }
   }
 
+  .pis {
+    font-size: 10px !important;
+  }
+
 }
 
 .about {
   width: 100%;
-  height: 100%;
+  height: 50%;
   /* background-color: #3a2727; */
   display: flex;
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
+  /* background-color: red; */
 }
 
 .box {
@@ -888,6 +899,10 @@ background-color: #7e5151;
     gap: 20px;
   }
 
+  .phptos img {
+    width: 60px;
+  }
+
   .flex {
     .d {
       .texts {
@@ -908,17 +923,23 @@ background-color: #7e5151;
 }
 
 @media (max-width: 800px) {
+  .about {
+    width: 100%;
+    height: 30%;
+  }
 
-  /* .box{
+  .box {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
   }
-  .box1{
+
+  .box1 {
     width: 100%;
     height: auto;
-  } */
+  }
+
   .box1 {
     width: 200px;
     height: 250px;
@@ -928,17 +949,32 @@ background-color: #7e5151;
 
     gap: 20px;
   }
-  .how{
-      width: 300px !important;
-  height: 390px !important;
-  background-color: #00fffb;
-  border-radius: 5px;
- 
+
+  .how {
+    width: 300px !important;
+    height: 390px !important;
+    /* background-color: #00fffb; */
+    border-radius: 5px;
+
   }
 
 }
 
 @media (max-width: 700px) {
+  .phptos img {
+    width: 40px;
+  }
+
+  .phptos {
+    span {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
   .box {
     display: flex;
     flex-wrap: wrap;
@@ -948,61 +984,619 @@ background-color: #7e5151;
 
   .box1 {
     width: 80%;
-    height: auto;
+    height: 100%;
   }
 
+  .what {
+    /* padding: 1400px 0 0 0; */
+
+  }
 }
 
-.what{
+.what {
+  display: flex;
+  flex-direction: column;
+  /* Matn va kartalar vertikal tartibda */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* padding: 300px 0 0 0; */
+
+  gap: 20px;
+  /* Elementlar orasidagi bo'shliq */
+  text-align: center;
+  /* Matnni markazlash */
+}
+
+.what h1,
+.what p {
+  color: #333;
+  /* Matn rangi */
+  margin: 0;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  /* Kartalarni bir nechta qatorga joylash */
+  gap: 20px;
+  /* Kartalar orasidagi bo'shliq */
+  justify-content: center;
+  /* Markaziy joylashuv */
+  width: 100%;
+}
+
+.how {
+  width: 380px;
+  /* Kartaning kengligi */
+  height: 490px;
+  /* Kartaning balandligi */
+  border-radius: 10px;
+  overflow: hidden;
+  /* Kartadan tashqaridagi tasvirni yashirish */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Yengil soya */
+  background-color: #fff;
+  /* Kartaning foni */
+}
+
+.how img {
+  width: 100%;
+  /* Tasvir kengligi */
+  height: 100%;
+  /* Tasvir balandligi */
+  object-fit: cover;
+  /* Tasvirni to'g'ri kesish */
+  border-radius: 10px;
+  /* Tasvirning chetlarini yumaloqlash */
+}
+
+@media (max-width: 768px) {
+  .how {
+    width: 300px;
+    /* O'rtacha ekranlar uchun mos o'lcham */
+    height: 380px;
+  }
+}
+
+@media (max-width: 650px) {
+  .how {
+    width: 250px;
+    /* Kichik ekranlar uchun mos o'lcham */
+    height: 300px;
+  }
+
+  .what h1 {
+    font-size: 1.5rem;
+    /* Matn o'lchamini kichraytirish */
+  }
+
+  .what p {
+    font-size: 1rem;
+    /* Paragraf matni o'lchami */
+  }
+}
+
+
+.main_ending {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+  padding-bottom: 150px;
 
 }
-.what{
+
+.also {
+  width: 80%;
+  height: 170px;
+  background: linear-gradient(90deg, #D22440, #FB773D);
+}
+
+footer {
   width: 100%;
-  /* height: auto; */
-  /* background-color: #d44242; */
+  height: 398px;
+
+  background: linear-gradient(90deg, #D22440, #FB773D);
+}
+
+.day {
   display: flex;
-  /* flex-wrap: wrap; */
-  gap: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.phptos {
+  display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 30px; */
+  gap: 20px;
+  padding: 20px;
+  /* flex-direction: column; */
 }
-.all{
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 20px;
+
+  .footer_img {
+    /* position: absolute ; */
+    margin-top: -160px;
+    width: 430px;
+    /* background-color: #fff; */
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer_img {
+
+    width: 400px !important;
+
+    /* background-color: #fff; */
+  }
+
+
+  footer {
+    height: 350px;
+    /* background-color: #fff; */
+
+  }
+
+  .newsletter-container {
+    width: 400px !important;
+    height: 210px !important;
+    /* background-color: #967878; */
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-description {
+    font-size: 12px;
+
+  }
+
+  .newsletter-title {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .newsletter-form {
+    display: flex;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+  }
+
+  .newsletter-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .newsletter-container {
+    width: 400px;
+    height: 200px;
+    /* background-color: #967878; */
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+
+  .newsletter-description {
+    font-size: 12px;
+
+  }
+
+  .newsletter-title {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    width: 300px;
+  }
+
+  .newsletter-input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+  }
+
+  .newsletter-button {
+    width: 60px;
+    height: 100%;
+    border: none;
+
+  }
+}
+
+
+
+
+
+@media (max-width: 700px) {
+
+  .newsletter-container {
+    order: 2;
+  }
+
+  .footer_img {
+
+    order: 1;
+  }
+}
+
+
+
+
+
+
+/* @media (max-width: 700px) {
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+  }
+  .footer_img {
+    order: 1; 
+    flex: 1 1 50%; 
+  }
   
+  .newsletter-container {
+    order: 2; 
+    flex: 1 1 50%; 
+  }
+  .footer_img {
+    order: 2; 
+  }
+
+  .newsletter-container {
+    order: 1; 
+  }
+} */
+
+@media (max-width: 800px) {
+  .newsletter-form {
+    display: flex;
+    width: 200px;
+    height: 90%;
+  }
+  .footer-container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .newsletter-button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    background-color: #fff;
+
+  }
+
+  .footer_img {
+    width: 300px !important;
+    margin: 0;
+  }
+
+  .newsletter-container {
+    margin: 0;
+  }
+
+  footer {
+    height: 227px;
+  }
+
+  .newsletter-description {
+    font-size: 10px;
+
+  }
+
+  .newsletter-form {
+
+    height: 30px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+.newsletter-container {
+  width: 500px;
+  height: 300px;
+  /* background-color: #fff; */
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.newsletter-description,
+.newsletter-title {
+  color: #ffffff;
+}
+
+.newsletter-form {
+  display: flex;
+  height: 60px;
+
+}
+
+.newsletter-input {
   width: 100%;
-  /* height: auto; */
-  /* background-color: #ffcece; */
-  display: flex; 
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #ffffff6a;
+
+}
+
+.newsletter-button {
+  width: 60px;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+
+}
+
+@media (max-width: 550px) {
+  .footer_img {
+    width: 169px !important;
+    margin-top: 0px !important;
+
+
+  }
+}
+
+@media (max-width: 436px) {
+  .footer_img {
+    width: 145px !important;
+    height: 209px;
+  }
+
+  .newsletter-description {
+    padding-top: 20px;
+    font-size: 10px;
+
+  }
+
+  .newsletter-title {
+    color: #ffffff;
+    font-size: 13px;
+  }
+
+  .newsletter-form {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer container */
+.footers {
+  color: #fff;
+  /* White text */
+  padding: 40px 20px;
+
+  background-image: url("./assets/fooot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  /* Tasvirni to'liq joylashtirish */
+  background-color: rgba(0, 0, 0, 0.639);
+  /* Qoraroq fon rangi (0.9 opacity) */
+  background-blend-mode: overlay;
+  /* Rasm va rangni aralashtirish */
+}
+
+
+.footer-container{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
+  gap: 20px;
 }
-.how{
-  width: 380px;
-  height: 490px;
-  /* background-color: #343434; */
-  border-radius: 5px;
- 
-img{
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.footer-contact,
+.footer-links,
+.footer-brand{
+  width: 300px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} 
+.footer-brand p{
+  font-size: 12px;
+}
+
+@media (max-width: 660px){
+  .footer-contact,
+  .footer-links,
+  .footer-brand{
+    width: 250px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tour-packages {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+.layli{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.section-subtitle {
+  color: red;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.cart {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-img {
   width: 100%;
-  border-radius: 9px;
-}
- 
+  height: 200px;
+  object-fit: cover;
 }
 
-@media  (max-width: 650px) {
-  .how{
-    width: 250px !important;
-height: 300px !important;
-/* background-color: #00fffb; */
-border-radius: 5px;
- 
-
+.card-content {
+  padding: 1rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-days,
+.card-price {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.card-price{
+  color: #000;
 }
