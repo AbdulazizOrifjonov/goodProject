@@ -138,23 +138,9 @@
   }
 }
 
-.chose {
 
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: #CD1A40;
-  font-size: 50px;
 
-}
 
-.text {
-  font-size: 64px;
-  font-weight: 100;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 2px;
-  text-align: center;
-}
 
 .main {
   width: 100%;
@@ -336,77 +322,9 @@ button {
 }
 
 
-
-
-/* 
-.section_2 {
-  width: 100%;
-  height: 120dvh; 
-
-  .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 50px;
-
-    .images {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-      gap: 10px;
-background-color: #7e5151;
-      .img_ziro {
-        background-image: url('./assets/0.png');
-        width: 990px;
-        height: 622px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .card_img {
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 10px;
-
-        .img_one,
-        .img_two,
-        .img_three {
-          width: 150px;  
-          height: 306px;  
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-        }
-
-        .img_one {
-          background-image: url('./assets/1.png');
-          width: 285px; 
-        }
-
-        .img_two {
-          background-image: url('./assets/2.png');
-          width: 285px; 
-        }
-
-        .img_three {
-          background-image: url('./assets/3.png');
-          width: 580px; 
-        }
-      }
-    }
-  }
-} */
-
 .section_2 {
   width: 100%;
   height: auto;
-  /* Eng katta qiymatni qoldirdim */
 }
 
 .section_2 .card {
@@ -417,7 +335,6 @@ background-color: #7e5151;
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
-  /* background-color: #825555; */
 }
 
 .section_2 .card .images {
@@ -427,9 +344,7 @@ background-color: #7e5151;
   align-items: center;
   justify-content: space-around !important;
   gap: 10px;
-  /* background-color: #692828; */
   padding: 30px 60px;
-  /* padding-top: 30px; */
 
 }
 
@@ -446,19 +361,15 @@ background-color: #7e5151;
 .section_2 .card .images .card_img {
   display: flex;
   flex-wrap: wrap;
-  /* Birinchi koddan saqlab qolindi */
   gap: 10px;
   width: 623px;
-  /* background-color: #941717; */
 }
 
 .section_2 .card .images .card_img .img_one,
 .section_2 .card .images .card_img .img_two,
 .section_2 .card .images .card_img .img_three {
   width: 150px;
-  /* Umumiy o'lcham */
   height: 306px;
-  /* Umumiy o'lcham */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -467,28 +378,21 @@ background-color: #7e5151;
 .section_2 .card .images .card_img .img_one {
   background-image: url('./assets/1.png');
   width: 285px;
-  /* Aniq o‘lcham */
 }
 
 .section_2 .card .images .card_img .img_two {
   background-image: url('./assets/2.png');
   width: 285px;
-  /* Aniq o‘lcham */
 }
 
 .section_2 .card .images .card_img .img_three {
   background-image: url('./assets/3.png');
   width: 580px;
-  /* Aniq o‘lcham */
 }
 
 
-/* MEDIA QUERY */
 @media (max-width: 1000px) {
-  .pi {
-    width: 80% !important;
-    height: 59px;
-  }
+
 
   .section_2 .card .images .img_ziro {
     width: 100%;
@@ -498,12 +402,9 @@ background-color: #7e5151;
 
   .section_2 .images {
     flex-direction: column;
-    /* Vertikal tartib */
     align-items: center;
 
     width: 100%;
-    /* background-color: #d60000; */
-    /* Qizil fon rangi */
   }
 
   .section_2 .images .card_img {
@@ -518,41 +419,29 @@ background-color: #7e5151;
   .section_2 .images .card_img .img_one {
 
     width: 50% !important;
-    /* Aniq o‘lcham */
   }
 
   .section_2 .images .card_img .img_two {
 
     width: 50% !important;
-    /* Aniq o‘lcham */
   }
 
   .section_2 .images .card_img .img_three {
 
     width: 100% !important;
-    /* Aniq o‘lcham */
   }
 
-  .section_2 .chose,
-  .section_2 .text {
-    font-size: 2.5rem;
-    /* Matn o‘lchamini moslashtirish */
-  }
+
+
 
   .section_2 .btn {
     font-size: 0.9rem;
     padding: 8px 15px;
-    /* Tugma o‘lchamlari */
   }
 }
 
 
 @media (max-width: 500px) {
-  .pi {
-    width: 70% !important;
-    font-size: 13px;
-    height: 59px;
-  }
 
   .second_div {
     display: flex;
@@ -560,34 +449,24 @@ background-color: #7e5151;
     align-items: center;
     justify-content: center;
     width: 100% !important;
-    /* background-color: #695252; */
   }
 
   .section_2 .card .images .card_img .img_one {
     background-image: url('./assets/1.png');
     width: 100% !important;
-    /* Aniq o‘lcham */
   }
 
   .section_2 .card .images .card_img .img_two {
     background-image: url('./assets/2.png');
     width: 100% !important;
-    /* Aniq o‘lcham */
   }
 }
 
-.pi {
-  padding-top: 20px;
-  width: 780px;
-  height: 59px;
-  text-align: center;
-}
 
 
 .second_div {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 10px;
   width: 100%;
 }
@@ -606,11 +485,6 @@ background-color: #7e5151;
     }
   }
 
-  .chose,
-  .text {
-    font-size: 2rem;
-    /* Kichik ekranlar uchun */
-  }
 
   .btn {
     font-size: 0.8rem;
@@ -621,14 +495,10 @@ background-color: #7e5151;
 @media (max-width: 480px) {
   .images {
     gap: 5px;
-    /* Elementlar orasidagi bo‘shliqni qisqartirish */
   }
 
-  .chose,
-  .text {
-    font-size: 1.5rem;
-    /* Matn o'lchamini moslashtirish */
-  }
+
+
 
   .btn {
     font-size: 0.7rem;
@@ -636,967 +506,3 @@ background-color: #7e5151;
   }
 }
 
-
-@media (max-width: 1200px) {
-  .box1 {
-    width: 300px;
-    height: 400px;
-  }
-
-  .section_2 .card .images .card_img .img_one {
-    background-image: url('./assets/1.png');
-    width: 250px;
-    /* Aniq o‘lcham */
-  }
-
-  .section_2 .card .images .card_img .img_two {
-    background-image: url('./assets/2.png');
-    width: 250px;
-    /* Aniq o‘lcham */
-  }
-
-  .section_2 .card .images .card_img .img_three {
-    background-image: url('./assets/3.png');
-    width: 510px;
-    /* Aniq o‘lcham */
-  }
-
-}
-
-@media (max-width: 1100px) {
-  .section_2 .card .images .card_img .img_one {
-    background-image: url('./assets/1.png');
-    width: 220px;
-    /* Aniq o‘lcham */
-  }
-
-  .section_2 .card .images .card_img .img_two {
-    background-image: url('./assets/2.png');
-    width: 220px;
-    /* Aniq o‘lcham */
-  }
-
-  .section_2 .card .images .card_img .img_three {
-    background-image: url('./assets/3.png');
-    width: 450px;
-    /* Aniq o‘lcham */
-  }
-
-}
-
-.card_father {
-  width: 100%;
-  height: auto;
-  /* background-color: #d44242; */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-}
-
-.card_children {
-  width: 410px;
-  height: 450px;
-  background-color: #FFF9F0;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 20px;
-
-  p {
-    width: 80%;
-    text-align: center;
-    color: #999999;
-  }
-
-  h1 {
-    b {
-      color: #999999;
-    }
-  }
-}
-
-.card_children .see {
-  display: none;
-  /* Birinchi rasm yashirilgan */
-}
-
-.card_children .saw {
-  display: block;
-  /* Oxirgi rasm ko'rsatilgan */
-}
-
-.card_children:hover .see {
-  display: block;
-  /* Hover bo'lganda birinchi rasm ko'rsatiladi */
-}
-
-.card_children:hover .saw {
-  display: none;
-  /* Hover bo'lganda oxirgi rasm yashiriladi */
-}
-
-
-
-
-
-.card_children:hover {
-
-  background: linear-gradient(90deg, #D22440, #FB773D);
-
-  h1 {
-    b {
-      color: #fff;
-    }
-  }
-
-  p {
-    color: #fff;
-  }
-}
-
-@media (max-width: 1214px) {
-  .card_children {
-    width: 300px;
-    height: 400px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .card_children {
-    width: 250px;
-    height: 350px;
-
-    img {
-      width: 30%;
-    }
-
-    p {
-      font-size: 14px;
-    }
-  }
-
-}
-
-@media (max-width: 570px) {
-  .phptos {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card_children {
-    width: 200px;
-    height: 300px;
-
-    img {
-      width: 30%;
-    }
-
-    p {
-      font-size: 12px;
-    }
-  }
-
-}
-
-@media (max-width: 470px) {
-  .card_children {
-    width: 80%;
-    height: 300px;
-
-    img {
-      width: 30%;
-    }
-
-    p {
-      font-size: 12px;
-    }
-  }
-
-  .pis {
-    font-size: 10px !important;
-  }
-
-}
-
-.about {
-  width: 100%;
-  height: 50%;
-  /* background-color: #3a2727; */
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  flex-direction: column;
-  /* background-color: red; */
-}
-
-.box {
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 20px;
-}
-
-.box1 {
-  width: 378px;
-  height: 412px;
-  background-color: #FFF9F0;
-  display: flex;
-  border-radius: 8px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-
-  img {
-    width: 100%;
-  }
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
-.d {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  gap: 10px;
-  /* padding-bottom:20px ; */
-}
-
-@media (max-width: 1200px) {
-  .box1 {
-    width: 300px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 20px;
-  }
-}
-
-@media (max-width: 900px) {
-  .box1 {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    gap: 20px;
-  }
-
-  .phptos img {
-    width: 60px;
-  }
-
-  .flex {
-    .d {
-      .texts {
-        font-size: 13px;
-      }
-
-      p {
-        font-size: 13px;
-      }
-    }
-
-    h1 {
-      b {
-        font-size: 15px;
-      }
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  .about {
-    width: 100%;
-    height: 30%;
-  }
-
-  .box {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* justify-content: center; */
-  }
-
-  .box1 {
-    width: 100%;
-    height: auto;
-  }
-
-  .box1 {
-    width: 200px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    gap: 20px;
-  }
-
-  .how {
-    width: 300px !important;
-    height: 390px !important;
-    /* background-color: #00fffb; */
-    border-radius: 5px;
-
-  }
-
-}
-
-@media (max-width: 700px) {
-  .phptos img {
-    width: 40px;
-  }
-
-  .phptos {
-    span {
-      font-size: 12px;
-    }
-
-    p {
-      font-size: 12px;
-    }
-  }
-
-  .box {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .box1 {
-    width: 80%;
-    height: 100%;
-  }
-
-  .what {
-    /* padding: 1400px 0 0 0; */
-
-  }
-}
-
-.what {
-  display: flex;
-  flex-direction: column;
-  /* Matn va kartalar vertikal tartibda */
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  /* padding: 300px 0 0 0; */
-
-  gap: 20px;
-  /* Elementlar orasidagi bo'shliq */
-  text-align: center;
-  /* Matnni markazlash */
-}
-
-.what h1,
-.what p {
-  color: #333;
-  /* Matn rangi */
-  margin: 0;
-}
-
-.all {
-  display: flex;
-  flex-wrap: wrap;
-  /* Kartalarni bir nechta qatorga joylash */
-  gap: 20px;
-  /* Kartalar orasidagi bo'shliq */
-  justify-content: center;
-  /* Markaziy joylashuv */
-  width: 100%;
-}
-
-.how {
-  width: 380px;
-  /* Kartaning kengligi */
-  height: 490px;
-  /* Kartaning balandligi */
-  border-radius: 10px;
-  overflow: hidden;
-  /* Kartadan tashqaridagi tasvirni yashirish */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Yengil soya */
-  background-color: #fff;
-  /* Kartaning foni */
-}
-
-.how img {
-  width: 100%;
-  /* Tasvir kengligi */
-  height: 100%;
-  /* Tasvir balandligi */
-  object-fit: cover;
-  /* Tasvirni to'g'ri kesish */
-  border-radius: 10px;
-  /* Tasvirning chetlarini yumaloqlash */
-}
-
-@media (max-width: 768px) {
-  .how {
-    width: 300px;
-    /* O'rtacha ekranlar uchun mos o'lcham */
-    height: 380px;
-  }
-}
-
-@media (max-width: 650px) {
-  .how {
-    width: 250px;
-    /* Kichik ekranlar uchun mos o'lcham */
-    height: 300px;
-  }
-
-  .what h1 {
-    font-size: 1.5rem;
-    /* Matn o'lchamini kichraytirish */
-  }
-
-  .what p {
-    font-size: 1rem;
-    /* Paragraf matni o'lchami */
-  }
-}
-
-
-.main_ending {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  padding-bottom: 150px;
-
-}
-
-.also {
-  width: 80%;
-  height: 170px;
-  background: linear-gradient(90deg, #D22440, #FB773D);
-}
-
-footer {
-  width: 100%;
-  height: 398px;
-
-  background: linear-gradient(90deg, #D22440, #FB773D);
-}
-
-.day {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.phptos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  /* flex-direction: column; */
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  gap: 20px;
-
-  .footer_img {
-    /* position: absolute ; */
-    margin-top: -160px;
-    width: 430px;
-    /* background-color: #fff; */
-  }
-}
-
-@media (max-width: 1100px) {
-  .footer_img {
-
-    width: 400px !important;
-
-    /* background-color: #fff; */
-  }
-
-
-  footer {
-    height: 350px;
-    /* background-color: #fff; */
-
-  }
-
-  .newsletter-container {
-    width: 400px !important;
-    height: 210px !important;
-    /* background-color: #967878; */
-    margin-right: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .newsletter-description {
-    font-size: 12px;
-
-  }
-
-  .newsletter-title {
-    color: #ffffff;
-    font-size: 18px;
-  }
-
-  .newsletter-form {
-    display: flex;
-  }
-
-  .newsletter-input {
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    padding: 10px;
-
-  }
-
-  .newsletter-button {
-    width: 60px;
-    height: 60px;
-    border: none;
-
-  }
-}
-
-
-@media (max-width: 1100px) {
-  .newsletter-container {
-    width: 400px;
-    height: 200px;
-    /* background-color: #967878; */
-    margin-right: 100px;
-    display: flex;
-    flex-direction: column;
-    /* gap: 20px; */
-  }
-
-  .newsletter-description {
-    font-size: 12px;
-
-  }
-
-  .newsletter-title {
-    color: #ffffff;
-    font-size: 18px;
-  }
-
-  .newsletter-form {
-    display: flex;
-    width: 300px;
-  }
-
-  .newsletter-input {
-    width: 90%;
-    height: 100%;
-    border: none;
-    outline: none;
-    padding: 10px;
-
-  }
-
-  .newsletter-button {
-    width: 60px;
-    height: 100%;
-    border: none;
-
-  }
-}
-
-
-
-
-
-@media (max-width: 700px) {
-
-  .newsletter-container {
-    order: 2;
-  }
-
-  .footer_img {
-
-    order: 1;
-  }
-}
-
-
-
-
-
-
-/* @media (max-width: 700px) {
-
-  .footer{
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-  }
-  .footer_img {
-    order: 1; 
-    flex: 1 1 50%; 
-  }
-  
-  .newsletter-container {
-    order: 2; 
-    flex: 1 1 50%; 
-  }
-  .footer_img {
-    order: 2; 
-  }
-
-  .newsletter-container {
-    order: 1; 
-  }
-} */
-
-@media (max-width: 800px) {
-  .newsletter-form {
-    display: flex;
-    width: 200px;
-    height: 90%;
-  }
-  .footer-container{
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-  }
-  .newsletter-button {
-    width: 60px;
-    height: 100%;
-    border: none;
-    background-color: #fff;
-
-  }
-
-  .footer_img {
-    width: 300px !important;
-    margin: 0;
-  }
-
-  .newsletter-container {
-    margin: 0;
-  }
-
-  footer {
-    height: 227px;
-  }
-
-  .newsletter-description {
-    font-size: 10px;
-
-  }
-
-  .newsletter-form {
-
-    height: 30px !important;
-  }
-}
-
-
-
-
-
-
-
-
-
-.newsletter-container {
-  width: 500px;
-  height: 300px;
-  /* background-color: #fff; */
-  margin-right: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.newsletter-description,
-.newsletter-title {
-  color: #ffffff;
-}
-
-.newsletter-form {
-  display: flex;
-  height: 60px;
-
-}
-
-.newsletter-input {
-  width: 100%;
-  height: 100%;
-  border: none;
-  outline: none;
-  padding: 10px;
-  color: #ffffff;
-  background-color: #ffffff6a;
-
-}
-
-.newsletter-button {
-  width: 60px;
-  height: 100%;
-  border: none;
-  background-color: #fff;
-
-}
-
-@media (max-width: 550px) {
-  .footer_img {
-    width: 169px !important;
-    margin-top: 0px !important;
-
-
-  }
-}
-
-@media (max-width: 436px) {
-  .footer_img {
-    width: 145px !important;
-    height: 209px;
-  }
-
-  .newsletter-description {
-    padding-top: 20px;
-    font-size: 10px;
-
-  }
-
-  .newsletter-title {
-    color: #ffffff;
-    font-size: 13px;
-  }
-
-  .newsletter-form {
-    height: 50px;
-    width: 150px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer container */
-.footers {
-  color: #fff;
-  /* White text */
-  padding: 40px 20px;
-
-  background-image: url("./assets/fooot.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-
-  /* Tasvirni to'liq joylashtirish */
-  background-color: rgba(0, 0, 0, 0.639);
-  /* Qoraroq fon rangi (0.9 opacity) */
-  background-blend-mode: overlay;
-  /* Rasm va rangni aralashtirish */
-}
-
-
-.footer-container{
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
-}
-a{
-  text-decoration: none;
-}
-li{
-  list-style: none;
-}
-.footer-contact,
-.footer-links,
-.footer-brand{
-  width: 300px;
-  height: auto;
-
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-} 
-.footer-brand p{
-  font-size: 12px;
-}
-
-@media (max-width: 660px){
-  .footer-contact,
-  .footer-links,
-  .footer-brand{
-    width: 250px;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 12px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tour-packages {
-  text-align: center;
-  padding: 2rem;
-  background-color: #f9f9f9;
-}
-.layli{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.section-subtitle {
-  color: red;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.section-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.section-description {
-  font-size: 1rem;
-  margin-bottom: 2rem;
-  color: #555;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.cart {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 300px;
-}
-
-.card-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 1rem;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-.card-title {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.card-days,
-.card-price {
-  color: #777;
-  font-size: 0.9rem;
-}
-
-.card-price{
-  color: #000;
-}

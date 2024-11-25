@@ -183,56 +183,7 @@ function App() {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
           </div>
-          {/* <div className="about">
-
-            <h1 className='chose'>Popular</h1>
-            <br />
-            <h1 className="tetx">TOUR PACKAGES </h1>
-            <p className="pi">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-            <br />
-            <div className="box">
-              <div className="box1">
-                <img src={img1} alt="" />
-                <div className="flex">
-
-                  <div className="d">
-
-                    <h className="texts">ROME, ITALY</h>
-                    <p className=''>10 days trip</p>
-                  </div>
-                  <h1><b>$5.24K</b></h1>
-                </div>
-              </div>
-              <div className="box1">
-                <img src={img22} alt="" />
-                <div className="flex">
-
-                  <div className="d">
-
-                    <h className="texts">LAHORE, PAKISTAN</h>
-                    <p className=''>6 days trip</p>
-                  </div>
-                  <h1><b>$3.25K</b></h1>
-                </div>
-
-              </div>
-              <div className="box1">
-
-                <img src={img3} alt="" />
-                <div className="flex">
-
-                  <div className="d">
-
-                    <h className="texts">SlNGAPORE</h>
-                    <p className=''>6 days trip</p>
-                  </div>
-                  <h1><b>$7.00K</b></h1>
-                </div>
-              </div>
-            </div>
-          </div> */}
+ 
 
 <section className="tour-packages">
       <h2 className="section-subtitle">Popular</h2>
